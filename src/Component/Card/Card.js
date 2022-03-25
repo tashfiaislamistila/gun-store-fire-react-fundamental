@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card.css'
 import { BsFillCartFill } from "react-icons/bs"
+
 const Card = ({ gunData, handleAddToCart }) => {
     // console.log(props.gunData);
     const { name, img, bullet, capacity, action, price, } = gunData;
